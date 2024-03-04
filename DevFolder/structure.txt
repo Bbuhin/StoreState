@@ -1,0 +1,22 @@
+Root Directory:
+
+app.py: The main Python file that runs your Flask application.
+config.py: Stores configuration variables for your project.
+requirements.txt: Lists all the Python dependencies your project needs.
+run.py: Script to start your Flask application.
+templates: Folder containing HTML templates for your application's user interface.
+static: Folder containing static assets like CSS, JavaScript, and images.
+
+
+
+storestate Folder:
+
+init.py: An empty file that helps Python treat the folder as a Python package.
+database.py: Likely contains code for interacting with your database (e.g., setting up connection, creating tables).
+google_fetch.py: Fetches data from Google (mechanism depends on your use case).
+metabase_fetch.py: Fetches data from Metabase.
+models.py: Probably defines the models for your database tables (e.g., StoreData, Report).
+octopus_api.py: Fetches data from the Octopus API.
+reports.py: Potentially includes logic for generating reports using data from your models.
+routes.py: Likely handles URL routing and defines functions that handle user requests.
+utils.py: May contain utility functions used throughout your application (e.g., data processing, file handling).
